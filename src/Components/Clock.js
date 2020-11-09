@@ -49,7 +49,6 @@ class Clock extends Component {
         {" "}
         <h1>Today is {Math.round(this.state.date / 1000)} in seconds</h1>
         <h1>Today is {this.timeStampToString(this.state.date)} in proper</h1>
-        <h2>Seconds left: {this.convertSecondsToDate(2000000000)}</h2>
       </div>
     );
   }
