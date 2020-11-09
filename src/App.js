@@ -1,8 +1,12 @@
 import React from "react";
+import Clock from "./Components/Clock";
 
 function App() {
-  const date = new Date();
-  return <div>{date.toDateString()}</div>;
+  return (
+    <div>
+      <Clock />
+    </div>
+  );
 }
 
 export default App;
