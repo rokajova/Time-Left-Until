@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Modal, ModalBody, ModalHeader, Modalfooter } from "reactstrap";
 
 class Clock extends Component {
   constructor(props) {
@@ -48,7 +49,10 @@ class Clock extends Component {
       <div>
         {" "}
         <h1>Today is {Math.round(this.state.date / 1000)} in seconds</h1>
-        <h1>Today is {this.timeStampToString(this.state.date)} in proper</h1>
+        <h1>Today is {this.timeStampToString(this.state.date)}</h1>
+        <Modal>
+          <ModalHeader></ModalHeader>
+        </Modal>
       </div>
     );
   }
