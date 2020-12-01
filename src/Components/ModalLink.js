@@ -18,7 +18,7 @@ const ModalLink = () => {
               borderStyle: "none",
               borderRadius: "10px",
             }}
-            src="http://www.twitter.com"
+            src="website URL here"
           />
         </ModalBody>
         <ModalFooter>
